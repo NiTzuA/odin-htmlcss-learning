@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.content {
+    padding: 5px 20px 5px 20px;
+}
+
+#first-paragraph {
+    font-style: italic;
+}
+
+#second-paragraph {
+    letter-spacing: 0.5em;
+}
+
+#third-paragraph {
+    line-height: 3;
+}
