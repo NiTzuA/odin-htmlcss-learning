@@ -1,7 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@font-face {
+    font-family: "myFont";
+    src: url("myFont.woff2")
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Regular.woff2') format('woff2'),
+        url('Quicksand-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rust';
+    src: url('IntroRustG-Base2Line.woff2') format('woff2'),
+        url('IntroRustG-Base2Line.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* General setup */
+
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3.2rem;
+    font-family: 'Rust';
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-family: 'Rust'
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+    font-family: 'Quicksand';
 }
 
 .content {
@@ -18,4 +74,9 @@ body {
 
 #third-paragraph {
     line-height: 3;
+}
+
+html {
+    font-family: "myFont", "Bitstream Vera Serif",
+        serif;
 }
